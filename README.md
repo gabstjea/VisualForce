@@ -29,7 +29,7 @@
  * `<apex:inputField value="">` - Used for object field data
     * auto renders data based on the field's type
     * respects user permissions and validation rules
-    * Search <apex:_input*_> and <apex:_select*_> within the standard component reference sheet for other input processing
+    * Search `<apex:_input\*_>` and `<apex:_select\*_>` within the standard component reference sheet for other input processing
  * `<apex:commandButton action="" value="">` - fires an action for the form
  * `<apex:pageMessages />` - displays form handling information
  * To view, edit, and delete related records: [related records form]()
