@@ -9,4 +9,4 @@
   * `<apex:realtedList list="SObject"></>` - Displays a specified related list
   * `<apex:outputField value="field"></>` - Displays individual field data
 ## Iterator Components
-* `<apex:pageBlockTable value="collection" var="variable"></>`- Creates a table with each column being a field of the object. Uses <apex:column value="field"> as its child
+* `<apex:pageBlockTable value="collection" var="variable"></>`- Creates a table with each column being a field of the object. Uses `<apex:column value="field">` as its child
