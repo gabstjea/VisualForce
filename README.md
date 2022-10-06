@@ -1,6 +1,7 @@
 # VisualForce
 ## Standard Components
 * [Standard Component Reference](https://developer.salesforce.com/docs/atlas.en-us.224.0.pages.meta/pages/pages_compref.htm?_ga=2.130643531.557902492.1665069460-1334770197.1660755932)
+* To append GET parameter to URL: &=_recordId
 ### Important Components
 * `<apex:page></>` - The template tag for a visual force page
 * `<apex:page standardController="sObject"></>` - Displays the standard controller for a standard or custom object
