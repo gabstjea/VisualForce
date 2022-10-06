@@ -7,7 +7,7 @@
 * `<apex:pageBlock relatedList="boolean"></>` - A container component
   * `<apex: pageBlockSection></>` - A wrapper component used with pageBlock to enable the looks and feel of its children components
 * `<apex:detail />` - Displays a high level view of a standard/custom objects detail containing feild data and related object data
-  * `<apex:relatedList list="SObject" /> - Displays a specified related list
+  * `<apex:relatedList list="SObject" />` - Displays a specified related list
     *  `<apex:enhancedList>` and `<apex:listViews>` - alternatives with more advanced features
   * `<apex:outputField value="field"></>` - Displays individual field data
 ### Iterator Components
