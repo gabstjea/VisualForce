@@ -32,4 +32,4 @@
  * `<apex:commandButton action="" value="">` - fires an action for the form
  * `<apex:pageMessages />` - displays form handling information
  * To view, edit, and delete related records: [related records form]()
-     *  To accomplish this use `<apex:outputLink />` in combination with `<apex:pageBlockTable>`
+     *  To accomplish this use `<apex:outputLink></>` in combination with `<apex:pageBlockTable></>`
