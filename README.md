@@ -24,12 +24,12 @@
 * `<apex:repeat>` - Generates an arbitray markup of a collection of components
 
 ### Form Creation
-* `<apex:field>` - Creates a form field used for creating, editing, retrieving, and saving records to the database
+* `<apex:field>` - Creates a form field for modififying record data (create, save, edit, delete)
   *  Automatically performs form handling but error messages must be enabled with <apex:pageMesages />
- * `<apex:inputField value="">` - A form field
+ * `<apex:inputField value="">` - Used for object field data
     * auto renders data based on the field's type
     * respects user permissions and validation rules
  * `<apex:commandButton action="" value="">` - fires an action for the form
  * `<apex:pageMessages />` - displays form handling information
  * To view, edit, and delete related records: [related records form]()
-     *  To accomplish this use `<apex:outputLink></>` in combination with `<apex:pageBlockTable></>`
+     *  To accomplish this use `<apex:outputLink></>` in combination with the URLFOR() function and `<apex:pageBlockTable></>`
