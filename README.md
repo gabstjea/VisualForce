@@ -38,5 +38,6 @@
  * <apex:commandButton action="{!save}" value="Save"> - fires an action to save the form
     *  See documentation for more actions
  * <apex:pageMessages /> - displays form handling information
+ * [<apex:outputLink />](./images/outputLinkRecordDetail) - Creates links to an external resource
  * To view, edit, and delete related records see [using outputLink component](./images/formOutputLink.png)
      *  To accomplish this use `<apex:outputLink></>` in combination with the URLFOR() function and `<apex:pageBlockTable></>`
