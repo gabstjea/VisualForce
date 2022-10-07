@@ -4,7 +4,7 @@
 * Utilize {!} for literal expressions
 * Global variables: $User
 * IF (expression, true, false)
-* Can use HTML components like <br />, <li>, and etc
+* Can use HTML components like `<br />`, `<li>`, and etc
 
 ## Standard Components
 * [Standard Component Reference](https://developer.salesforce.com/docs/atlas.en-us.224.0.pages.meta/pages/pages_compref.htm?_ga=2.130643531.557902492.1665069460-1334770197.1660755932)
