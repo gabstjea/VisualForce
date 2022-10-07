@@ -11,20 +11,21 @@
 ### Important Components
 * `<apex:page></>` - Specifies how the page is processed. Is the main wrapper component
 * `<apex:page standardController="sObject"></>` - Displays the standard controller for a standard or custom object
+* `<apex:page standardController="sObject" recordSetVar=""></>` - Creates a standard controller list
 * `<apex:pageBlock ></>` - The main wrapper component for visual styling 
   * `<apex: pageBlockSection></>` - A wrapper component used with pageBlock to enable the looks and feel of its children components. Similar to div
-* `<apex:detail relatedList="_boolean_"/>` - Displays a high level view of a standard/custom objects detail containing feild data and related object data
-  * `<apex:relatedList list="_SObject_" />` - Displays a specified related list
+* [<apex:detail relatedList="_boolean_"/>](./images/DetailComponent.png)- Displays a high level view of a standard/custom objects detail containing feild data and related object data
+  * [<apex:relatedList list="_SObject_" />](./images/relatedListComponent.png) - Displays a specified related list
     *  `<apex:enhancedList>` and `<apex:listViews>` - alternatives with more advanced features
   * `<apex:outputField value="_fieldNamespace_"></>` - Displays individual field data
 ### Iterator Components
-* `<apex:pageBlockTable value="_collection_" var="_variable_"></>`- Creates a table with each column being a field of the object. Uses Salesforce Classic Styling
+* [<apex:pageBlockTable value="_collection_" var="_variable_"></>](./images/pageBlockTable.png)- Creates a table with each column being a field of the object. Uses Salesforce Classic Styling
 * `<apex:dataTable>` - Does not use Salesforce Classic Styling 
 * `<apex:dataList>` - Does not use Salesforce Classic Styling 
 * `<apex:repeat>` - Generates an arbitray markup of a collection of components
 
 ### Form Creation
-* `<apex:field>` - Creates a form field for modififying record data (create, save, edit, delete)
+* [<apex:field>](./images/formAndInputfield.png) - Creates a form field for modififying record data (create, save, edit, delete)
   *  Automatically performs form handling but error messages must be enabled with <apex:pageMesages />
  * `<apex:inputField value="">` - Used for object field data
     * auto renders data based on the field's type
@@ -32,5 +33,5 @@
     * Search terms beginning with _<apex:input>_ and _<apex:_select>_ within the standard component reference sheet for other input processing
  * `<apex:commandButton action="" value="">` - fires an action for the form
  * `<apex:pageMessages />` - displays form handling information
- * To view, edit, and delete related records: [related records form]()
+ * To view, edit, and delete related records see [using outputLink component](./images/outputfield.png)
      *  To accomplish this use `<apex:outputLink></>` in combination with the URLFOR() function and `<apex:pageBlockTable></>`
