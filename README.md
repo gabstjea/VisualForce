@@ -20,6 +20,7 @@
   * <apex:outputField value="_fieldNamespace_"></> - Displays individual field data
 ### Iterator Components
 * [<apex:pageBlockTable value="_collection_" var="_variable_"></>](./images/pageBlockTable.png)- Creates a table with each column being a field of the object. Uses Salesforce Classic Styling
+   * Uses `<apex:column value="">
 * <apex:dataTable> - Does not use Salesforce Classic Styling 
 * <apex:dataList> - Does not use Salesforce Classic Styling 
 * <apex:repeat> - Generates an arbitray markup of a collection of components
