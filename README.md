@@ -35,8 +35,8 @@
  * <apex:selectList value="" multiselelect="_boolean_"> - Creates a dropdown menu where one or multiple items can be selected.
     * Uses `<apex:selectOptions value="">
     * Search terms beginning with `<apex:_select>` within the standard component reference sheet for other select processing like radio and checkboxes
- * <apex:commandButton action="" value=""> - fires an action for the form
-    *  See documentation for more 
+ * <apex:commandButton action="{!save}" value="Save"> - fires an action to save the form
+    *  See documentation for more actions
  * <apex:pageMessages /> - displays form handling information
  * To view, edit, and delete related records see [using outputLink component](./images/outputfield.png)
      *  To accomplish this use `<apex:outputLink></>` in combination with the URLFOR() function and `<apex:pageBlockTable></>`
