@@ -31,7 +31,10 @@
  * <apex:inputField value="_sObject.FieldName_"> - Used for object field data
     * auto renders data based on the field's type
     * respects user permissions and validation rules
-    * Search terms beginning with _<apex:input>_ and _<apex:_select>_ within the standard component reference sheet for other input processing
+    * Search terms beginning with `<apex:input*>`  within the standard component reference sheet for other input processing like radio, file input, etc
+ * <apex:selectList value="" multiselelect="_boolean_"> - Creates a dropdown menu where one or multiple items can be selected.
+    * Uses `<apex:selectOptions value="">
+    * Search terms beginning with `<apex:_select>` within the standard component reference sheet for other select processing like radio and checkboxes
  * <apex:commandButton action="" value=""> - fires an action for the form
     *  See documentation for more 
  * <apex:pageMessages /> - displays form handling information
